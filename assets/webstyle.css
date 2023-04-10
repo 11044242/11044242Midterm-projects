@@ -1,0 +1,240 @@
+body {
+    background-color: #615055;
+
+}
+
+* {
+    margin: 0;
+    font-family: "標楷體", "Arial";
+}
+
+header {
+    background-color: #B4A6AB;
+    color: #4a4e69;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav {
+    color: black;
+    background-color: #e3d5ca;
+    text-align: center;
+    font-size: 15pt;
+    border-style: solid;
+
+}
+
+nav a {
+    padding: 10px;
+    display: inline-block;
+    font-size: 15pt;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: #f5ebe0;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: #472d30;
+    color: #ddc9b4;
+    text-align: center;
+    font-size: 25pt;
+    padding: 20px;
+}
+
+.sec {
+    width: 1024px;
+    background-color: #fefae0;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+}
+
+.secintro {
+    width: 1024px;
+    background-color: #fefae0;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 30px;
+    display: flex;
+}
+
+.sec img {
+    height: 350px;
+    width: 280px;
+    border-radius: 25%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#ski1 {
+    height: 25px;
+    width: 25%;
+    background-color: #7f4f24;
+    animation: ski_1 5s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ski_1 {
+    0% {
+        width: 0;
+    }
+
+    75%,
+    100% {
+        width: 60%;
+    }
+}
+
+#ski2 {
+    height: 25px;
+    width: 25%;
+    background-color: #7f4f24;
+    animation: ski_2 5s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ski_2 {
+    0% {
+        width: 0;
+    }
+
+    75%,
+    100% {
+        width: 60%;
+    }
+}
+
+#ski3 {
+    height: 25px;
+    width: 60%;
+    background-color: #7f4f24;
+    animation: ski_3 5s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ski_3 {
+    0% {
+        width: 0;
+    }
+
+    75%,
+    100% {
+        width: 70%;
+    }
+}
+
+.loading {
+    width: 80%;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 4px solid;
+    overflow: hidden;
+    position: relative;
+    left: 8%;
+}
+
+.ski {
+    color: black;
+    background-color: #ffddd2;
+    padding: 25px;
+    width: 45%;
+    margin: 10px;
+    transition-duration: 5s;
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.ski:hover {
+    width: 200px;
+}
+
+.secintro {
+    font-size: 18pt;
+}
+
+.center {
+    font-size: 25pt;
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.vertical.title {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    vertical-align: middle;
+    background-color: #c9ada7;
+    text-align: center;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.title01 {
+    text-align: center;
+}
+
+.secwin {
+    width: 1024px;
+    background-color: #fefae0;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 30px;
+    display: flex;
+}
+
+.secwin01,
+.secwin02 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 2%px;
+}
+
+.secwin img {
+    height: 350px;
+    padding: 20px;
+}
+
+.sec img .winjpg {
+    border-radius: 10%;
+}
+
+.contactbox01,
+.contactbox02,
+.contactbox03 {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 2%px;
+    height: 10cm;
+}
+
+.seccontact img {
+    height: 120pt;
+    width: 120pt;
+    padding: 10px 100px 10px 100px;
+}
